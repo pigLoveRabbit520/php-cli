@@ -1,4 +1,4 @@
-FROM php:7.1-cli-alpine3.9
+FROM php:7.2.20-zts-alpine3.10
 
 ENV APP_ENV=${app_env:-"prod"} \
     TIMEZONE=${timezone:-"Asia/Shanghai"} \
