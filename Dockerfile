@@ -14,6 +14,7 @@ RUN apk --update add \
     linux-headers \
     libaio-dev \
     libzip \
+    libzip-dev \
     zlib-dev \
     curl \
     freetype-dev \
