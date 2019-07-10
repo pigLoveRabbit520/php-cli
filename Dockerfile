@@ -13,6 +13,7 @@ RUN apk --update add \
     build-base \
     linux-headers \
     libaio-dev \
+    libzip \
     zlib-dev \
     curl \
     freetype-dev \
